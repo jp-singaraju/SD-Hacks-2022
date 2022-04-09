@@ -35,6 +35,7 @@ export async function post({ request }) {
 			})
 		},
 		body: {
+			message: 'success',
 			user: {
 				username: user.username,
 				score: 10

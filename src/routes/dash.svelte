@@ -15,10 +15,13 @@
 </script>
 
 <script>
+	import Map from './_Map.svelte';
+
 	export let user;
-	console.log(user);
 </script>
 
 <h1 class="text-center text-2xl font-semibold">
 	Hi! You are registered as user {user.username} with score {user.score}.
 </h1>
+
+<Map/>
