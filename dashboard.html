@@ -1,0 +1,136 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.6, minimum-scale=0.6">
+        <title>EcoGo!</title>
+        <link rel="stylesheet" href="dashboard_style.css">
+    </head>
+    <body class="fade">
+        <header>
+            <img class="logo_image" src="logo.png" alt="Eco Logo" align="left">
+            <p style="background-image: url(background.jpg);"></p>
+            <div class="name">
+                <br>Welcome Pranav!
+            </div>
+        </header>
+        <div class="row1-container">
+            <div class="box box-down cyan">
+              <h2>Event Map</h2>
+            </div>
+            <div class="box red">
+              <h2>Your Eco-Score</h2>
+              <div class="container_points">
+                <div class="card1">
+                    <div class="text_points">
+                        Today's Points
+                    </div>
+                    <br>
+                    <div class="text_points">
+                        Out of 50
+                    </div>
+                    <br>
+                    <div class="points_vals">
+                        21.0
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="text_points">
+                        Week's Average
+                    </div>
+                    <br>
+                    <div class="text_points">
+                        Out of 50
+                    </div>
+                    <br>
+                    <div class="points_vals">
+                        32.4
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="text_points">
+                        All-Time Average
+                    </div>
+                    <br>
+                    <div class="text_points">
+                        Out of 50
+                    </div>
+                    <br>
+                    <div class="points_vals">
+                        15.4
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="box box-down blue">
+                <h2>Daily Tasks</h2>
+                <h3>
+                    <input type="checkbox" id="task1" name="task1" value="1">
+                    <label for="task">Pick up trash on the ground</label><br> <br>
+                    <input type="checkbox" id="task2" name="task2" value="2">
+                    <label for="task">Walk to school</label><br> <br>
+                    <input type="checkbox" id="task3" name="task3" value="3">
+                    <label for="task">Spend 30 minutes outdoors</label><br> <br>
+                    <input type="checkbox" id="task4" name="task4" value="4">
+                    <label for="task">Do not trash recyclable materials</label><br> <br>
+                    <input type="checkbox" id="task5" name="task5" value="5">
+                    <label for="task">Eat healthy</label><br> <br>
+                </h3>
+                <div class="login_button">
+                    <button type="button">Submit Task(s)</button>
+                </div>
+            </div>
+        </div>
+        <div class="row2-container">
+            <div class="box orange">
+                <h2>Leaderboard</h2>
+                <table class="table">
+                    <thead>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Average Points</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Person 1</td>
+                            <td>49.5</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Person 2</td>
+                            <td>49.4</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Person 3</td>
+                            <td>49.3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Person 4</td>
+                            <td>49.2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Person 5</td>
+                            <td>49.1</td>
+                        </tr>
+                        <tr>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                        </tr>
+                        <tr>
+                            <td>355</td>
+                            <td>Pranav Singaraju</td>
+                            <td>21.3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+    <footer class="extra_padding"></footer>
+</html>
