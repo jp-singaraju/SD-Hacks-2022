@@ -6,7 +6,7 @@
 	const sess = getSession(session);
 
 	function logout() {
-		get('auth/logout');
+		get('api/logout');
 	}
 </script>
 

@@ -1,0 +1,266 @@
+.logo_image {
+	width: 92px;
+	height: 80px;
+}
+.name {
+	text-align: center;
+	color: white;
+	font-size: 64px;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Fraunces', serif;
+	font-weight: 900;
+	animation: fadeIn ease 5s;
+	-webkit-animation: fadeIn ease 5s;
+	-moz-animation: fadeIn ease 5s;
+	-o-animation: fadeIn ease 5s;
+	-ms-animation: fadeIn ease 5s;
+}
+.fade {
+	animation: fadeIn ease 5s;
+	-webkit-animation: fadeIn ease 5s;
+	-moz-animation: fadeIn ease 5s;
+	-o-animation: fadeIn ease 5s;
+	-ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+:root {
+	--red: white;
+	--cyan: white;
+	--orange: white;
+	--blue: white;
+	--grayishBlue: white;
+	--weight1: 200;
+	--weight2: 400;
+	--weight3: 600;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: white;
+}
+.header {
+	text-align: center;
+	line-height: 0.8;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+.header p {
+	margin: 0 auto;
+	line-height: 2;
+	color: white;
+}
+.box p {
+	color: white;
+}
+.box {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	box-shadow: 10px 10px 10px 0px whitesmoke;
+	padding: 30px;
+	margin: 20px;
+}
+.cyan {
+	height: 400px;
+	background-color: #f0fff0;
+}
+.red {
+	height: 270px;
+	background-color: #f0fff0;
+}
+.blue {
+	height: 340px;
+	background-color: #f0fff0;
+}
+.orange {
+	height: 380px;
+	background-color: #f0fff0;
+}
+h2 {
+	font-weight: var(--weight3);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin: 0px;
+	color: black;
+}
+h3 {
+	font-weight: var(--weight3);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 14px;
+	margin: 15px;
+	color: #2e3630;
+}
+@media (min-width: 950px) {
+	.row1-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.row2-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.box-down {
+		position: relative;
+		top: 150px;
+	}
+	.box {
+		width: 25%;
+	}
+}
+.container_points {
+	display: flex;
+	flex-direction: row;
+}
+.card1 {
+	border-radius: 10px;
+	border: 2px solid;
+	margin: 15px;
+	width: 95px;
+	height: 170px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	display: inline-block;
+	background-color: #a3ebb1;
+}
+.card2 {
+	border-radius: 10px;
+	border: 2px solid;
+	margin: 15px;
+	width: 95px;
+	height: 170px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	display: inline-block;
+	background-color: #009879;
+}
+.card3 {
+	border-radius: 10px;
+	border: 2px solid;
+	margin: 15px;
+	width: 95px;
+	height: 170px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	display: inline-block;
+	background-color: #ecf87f;
+}
+.extra_padding1 {
+	margin: 200px;
+}
+button {
+	background-color: darkslategray;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+		sans-serif;
+	border-radius: 20px 20px 20px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border: 1;
+	padding: 10px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	margin-bottom: 2px;
+	margin-bottom: auto;
+}
+.text_points {
+	font-weight: var(--weight3);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+	margin: 5px;
+	color: #2e3630;
+	text-align: center;
+}
+.points_vals {
+	font-weight: var(--weight3);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+		sans-serif;
+	font-size: 32px;
+	color: #2e3630;
+	text-align: center;
+}
+.table {
+	border-radius: 10px;
+	border: 2px solid;
+	border-collapse: collapse;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	text-align: center;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.table thead tr {
+	background-color: #009879;
+	color: #ffffff;
+	text-align: center;
+}
+.table th,
+.table td {
+	padding: 6px 8px;
+}
+.table tbody tr {
+	border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+	background-color: #a3ebb1;
+}
+
+.table tbody tr:last-of-type {
+	border-bottom: 2px solid #009879;
+}

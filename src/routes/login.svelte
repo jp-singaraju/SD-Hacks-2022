@@ -13,8 +13,8 @@
 </script>
 
 <script>
-	import { post } from '$lib/utils.js';
 	import { goto } from '$app/navigation';
+	import { post } from '$lib/utils.js';
 	import { sha256 } from 'js-sha256';
 
 	let username;
@@ -28,7 +28,7 @@
 			password: encryptedPassword
 		};
 
-		message = (await post('/auth/login', data)).message;
+		message = (await post('/api/login', data)).message;
 
 		if (message === "success") {
 			goto('/dash');
@@ -74,7 +74,9 @@
 					text-white hover:bg-green-700 focus:outline-none"
 					type="submit"
 				>
-					Sign In
+					<a href="/dash">
+						Sign In
+					</a>
 				</button>
 				<a
 					class="btn focus:shadow-outline rounded-r bg-blue-500 py-2 px-4 font-bold

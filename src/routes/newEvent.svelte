@@ -37,7 +37,8 @@
 		};
 
 		console.log(data);
-		post('/events', data);
+		post('/api/events', data);
+		goto('/dash');
 	}
 
 	function placeChanged(e) {
@@ -92,7 +93,7 @@
 			</div>
 			<div class="inline-flex">
 				<button
-					class="focus:shadow-outline rounded-l bg-green-500 py-2 px-4 font-bold
+					class="focus:shadow-outline rounded bg-green-500 py-2 px-4 font-bold
 					text-white hover:bg-green-700 focus:outline-none"
 					type="submit"
 				>

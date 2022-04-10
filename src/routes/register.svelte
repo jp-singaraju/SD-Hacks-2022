@@ -28,7 +28,7 @@
 			password: encryptedPassword
 		};
 
-		message = (await post('/auth/register', data)).message;
+		message = (await post('/api/register', data)).message;
 
 		if (!message) {
 			goto('/dash');
