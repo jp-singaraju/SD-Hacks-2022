@@ -1,4 +1,4 @@
-import { addEvent, getEvent, getAllEvents } from '$lib/database';
+import { addEvent, getAllEvents } from '$lib/database';
 
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function post({ request }) {
