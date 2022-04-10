@@ -1,0 +1,136 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-d9a4a690.js",
+      "_database-ec8a5d40.js"
+    ],
+    "dynamicImports": [
+      "src/hooks/index.js"
+    ]
+  },
+  "src/routes/api/updateScore.js": {
+    "file": "entries/endpoints/api/updateScore.js",
+    "src": "src/routes/api/updateScore.js",
+    "isEntry": true,
+    "imports": [
+      "_database-ec8a5d40.js"
+    ]
+  },
+  "src/routes/api/register.js": {
+    "file": "entries/endpoints/api/register.js",
+    "src": "src/routes/api/register.js",
+    "isEntry": true,
+    "imports": [
+      "_database-ec8a5d40.js"
+    ]
+  },
+  "src/routes/api/logout.js": {
+    "file": "entries/endpoints/api/logout.js",
+    "src": "src/routes/api/logout.js",
+    "isEntry": true,
+    "imports": [
+      "_database-ec8a5d40.js"
+    ]
+  },
+  "src/routes/api/login.js": {
+    "file": "entries/endpoints/api/login.js",
+    "src": "src/routes/api/login.js",
+    "isEntry": true,
+    "imports": [
+      "_database-ec8a5d40.js"
+    ]
+  },
+  "src/routes/api/events.js": {
+    "file": "entries/endpoints/api/events.js",
+    "src": "src/routes/api/events.js",
+    "isEntry": true,
+    "imports": [
+      "_database-ec8a5d40.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d9a4a690.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-2fd03dd3.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d9a4a690.js"
+    ]
+  },
+  "src/routes/dash.svelte": {
+    "file": "entries/pages/dash.svelte.js",
+    "src": "src/routes/dash.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d9a4a690.js"
+    ],
+    "css": [
+      "assets/GeolocateControl.svelte_svelte_type_style_lang-c1d09799.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d9a4a690.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-c6583e60.css"
+    ]
+  },
+  "src/routes/login.svelte": {
+    "file": "entries/pages/login.svelte.js",
+    "src": "src/routes/login.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d9a4a690.js"
+    ]
+  },
+  "src/routes/newEvent.svelte": {
+    "file": "entries/pages/newEvent.svelte.js",
+    "src": "src/routes/newEvent.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d9a4a690.js"
+    ],
+    "css": [
+      "assets/GeolocateControl.svelte_svelte_type_style_lang-c1d09799.css"
+    ]
+  },
+  "src/routes/register.svelte": {
+    "file": "entries/pages/register.svelte.js",
+    "src": "src/routes/register.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-d9a4a690.js"
+    ]
+  },
+  "_database-ec8a5d40.js": {
+    "file": "chunks/database-ec8a5d40.js"
+  },
+  "_index-d9a4a690.js": {
+    "file": "chunks/index-d9a4a690.js"
+  },
+  "src/hooks/index.js": {
+    "file": "chunks/index-9b8d092c.js",
+    "src": "src/hooks/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_database-ec8a5d40.js"
+    ]
+  }
+}
