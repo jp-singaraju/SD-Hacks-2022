@@ -1,4 +1,5 @@
-**Comment**
+**Project**
+
 Dhruv and I submitted EcoGo for the SDHacks2022 Competition. We won 1st place in our category.
 
 **What is EcoGo?**
